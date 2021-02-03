@@ -1,23 +1,23 @@
 /*
 =====================================================
- SetCookie  - by Miomoor 
+ SetCookie  - by AidenFox
 -----------------------------------------------------
  https://arcjetsystems.ru/
 -----------------------------------------------------
- Copyright (c) 2016-2019 Rpman Lisitsyn
+ Copyright (c) 2016-2019 Roman Lisitsyn
 -----------------------------------------------------
  This piece of code is reserved 
 -----------------------------------------------------
  File: SetCookie.js
 -----------------------------------------------------
- Version: 0.0.4 Alpha
+ Version: 0.0.5 Alpha
 -----------------------------------------------------
- Usage: Setting and Getting
+ Usage: Setting and Getting a Cookie
 =====================================================
 */
 /* 
 Sample
-setCookie('advert', 'closed', 86400, '/', 'foxesworld.ru', true); - sets a cookie for a day
+setCookie('advert', 'closed', 86400, '/', 'someSite.ru', true); - sets a cookie for a day
 */
 
 function setCookie(name, value, time, path, domain, secure) {
